@@ -1,0 +1,54 @@
+.newsLetterComponent {
+  background-color: #F2F2F2;
+}
+
+.newsLetterComponent .title {
+  width: 100%;
+  text-align: center;
+}
+
+.newsLetterComponent .container {
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 36px;
+}
+
+.newsLetterComponent .section h2 {
+  font-family: Lato;
+  font-size: 20px;
+  line-height: 22px;
+  font-style: normal;
+  font-weight: bold;   
+  justify-self: center;
+}
+
+.newsLetterComponent form {
+  display:flex;
+  justify-content: center;
+}
+
+.newsLetterComponent form .col-auto {
+  margin-right: 8px;
+  margin-top: 10px;
+}
+
+.newsLetterComponent form input {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #FFF;
+  line-height:14px;
+  font-size: 12px;
+  padding:15px;
+  border: 0;
+}
+
+.newsLetterComponent .btn {
+  width: 140px;
+  height: 40px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}

@@ -1,12 +1,9 @@
 footer{
-  margin-top: 200px;
   background-color:#000;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  font-family: Nunito;
 }
-
 
 footer .address {
   color: #fff;
