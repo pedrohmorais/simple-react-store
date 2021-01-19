@@ -1,0 +1,17 @@
+#mainBanner {
+  display: flex;
+}
+
+
+#mainBanner .bannerItem {
+  display: flex;
+}
+
+#mainBanner .bannerItemBg {
+  display: flex;
+}
+
+#mainBanner .bannerItemBg img {
+  margin-left: -70px;
+  z-index: -1;
+}

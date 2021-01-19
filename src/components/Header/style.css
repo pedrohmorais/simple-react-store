@@ -1,0 +1,78 @@
+/* bg header */
+
+#mainHeader {
+  position: absolute;
+  width: 1920px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #FFFFFF;
+}
+
+#mainHeader .container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+
+input {
+  font-size: 13px;
+  line-height: 18px;
+  color: #7A7A7A;
+  border: 0;
+  border-bottom: 1px solid #7A7A7A;
+  width: 100%;
+  outline: none;
+  height: 32px;
+  padding: 10px 0;
+}
+
+.searchField {
+  width: 718px;
+  position: relative;
+  height: 32px;
+}
+
+.searchField img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.myAccount {
+  background: transparent;
+  border: none;
+  outline: none;
+  align-items: center;
+  height: 20px;
+  display: flex;
+}
+
+
+.cart {
+  background: transparent;
+  border: none;
+  outline: none;
+  align-items: center;
+  height: 20px;
+  display: flex;
+}
+
+.cart .cartItems {
+  background-color: #F8475F;
+  height: 14px;
+  width: 14px;
+  line-height: 14px;
+  font-size: 10px;
+  border-radius: 100%;
+  color: #ffffff;
+  margin-left: 9px;
+  font-weight: bold;
+}
+
+.sideOptions {
+  display: flex;
+}
