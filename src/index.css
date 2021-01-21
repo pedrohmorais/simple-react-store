@@ -8,6 +8,15 @@ code {
 }
 
 .container {
-  width: 1142px;
+  width: 100%;
+  padding: 0 15px; 
   margin: auto;
+}
+
+
+@media (min-width:900px) {
+  .container {
+    width: 1142px;
+    padding: 0;
+  }
 }

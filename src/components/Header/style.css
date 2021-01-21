@@ -1,12 +1,13 @@
 /* bg header */
 
 #mainHeader {
-  position: absolute;
-  width: 1920px;
+  position: fixed;
+  width: 100vw;
   height: 80px;
   left: 0px;
   top: 0px;
   background: #FFFFFF;
+  z-index: 999;
 }
 
 #mainHeader .container {
@@ -51,6 +52,7 @@
 }
 
 
+
 .cart {
   background: transparent;
   border: none;
@@ -58,6 +60,8 @@
   align-items: center;
   height: 20px;
   display: flex;
+  margin-left: 16px;
+  cursor: pointer;
 }
 
 .cart .cartItems {
@@ -70,8 +74,53 @@
   color: #ffffff;
   margin-left: 9px;
   font-weight: bold;
+  cursor: pointer;
 }
+
 
 .sideOptions {
   display: flex;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  #mainHeader {
+    width: 100%;
+     min-width: 320px;
+     
+
+   
+ }
+ #mainHeader header {
+  
+  flex-direction:column;
+  width: 100%;
+  min-width: 320px;
+}
+ .column .mainLogo {
+   width: 22vw; 
+   max-width: 200px;
+   min-width: 102,46px;
+
+ }
+ .column .searchField{
+   width: 280px;
+   height: 22px;
+ }
+
+ .column .searchField img{
+   width: 18px;
+ }
+
+
+
+ .myAccount img{
+    width: 1.4vw;
+    min-width: 18px;
+    height: 18px;
+ }
+ .cart img {
+   width: 18px;
+   height: 18px;
+ }
 }

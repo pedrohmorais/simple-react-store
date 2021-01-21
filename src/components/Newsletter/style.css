@@ -1,10 +1,12 @@
 .newsLetterComponent {
   background-color: #F2F2F2;
+  margin-top: 50px;
 }
 
 .newsLetterComponent .title {
   width: 100%;
   text-align: center;
+  margin-top: 18px;
 }
 
 .newsLetterComponent .container {
@@ -22,6 +24,7 @@
   font-style: normal;
   font-weight: bold;   
   justify-self: center;
+
 }
 
 .newsLetterComponent form {
@@ -51,4 +54,74 @@
   background-color: #000;
   color: #fff;
   border-radius: 5px;
+
 }
+
+.newsLetterComponent .btn:hover {
+  opacity: 0.9;
+  width: 150px;
+  transition: width 1s;
+  cursor: pointer;
+}
+
+.success {
+  flex-direction: column;
+  text-align: center;
+}
+
+.success .btn {
+  margin: 12px auto;
+}
+
+@media (max-width:900px){
+
+  .newsLetterComponent{
+    display:block;
+     width: 100%;
+     min-width: 320px;
+     height: 276px;
+     margin-right: 0;
+  }
+
+  .newsLetterComponent .container{
+
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    height: 100%;
+  
+ 
+}
+  .newsLetterComponent .title {
+  font-size: 22px;
+  
+  margin-bottom: 5px;
+
+}
+
+  .newsLetterComponent form {
+   
+    display: flex;
+    flex-direction: column;
+    line-height:22px;
+  }
+
+  .newsLetterComponent form input{
+    width: 288px;
+    height: 48px;
+  }
+
+  .newsLetterComponent form input:first-child {
+    margin-top:9px;
+    margin-bottom: 9px;
+  }
+  .newsLetterComponent form .col-auto {
+   margin-top: 0;
+  }
+
+  .newsLetterComponent .btn {
+    width: 288px;
+    height: 48px;
+  }  
+}
+

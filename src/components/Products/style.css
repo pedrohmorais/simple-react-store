@@ -1,3 +1,100 @@
-#productsContainer .container {
+#productsContainer {
+  margin-top: 25px;
+}
+
+#productsContainer h3 {
+  font-size: 20px;
+  line-height: 27px;
+  position: relative;
+  margin-bottom: 26px;
+  font-weight: 900;
+}
+
+#productsContainer h3::after {
+  content: " ";
+  height: 4px;
+  width: 65px;
+  position: absolute;
+  background: #C0C0C0;
+  left: 0;
+  bottom: -6px;
+}
+
+#productsContainer .productsBlock {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 100vw;
+}
+
+
+.btnProducts {
+  width: 125.28px;
+  height: 32.42px;
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.productCard {
+  position: relative;
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  background-color: #E6E8EA;
+}
+
+.productName {
+  color: #7A7A7A;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.fullPrice {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 20px 0 4px;
+}
+
+.discount {
+  color: #FFFFFF;
+  font-weight: 900;
+  width: 0; 
+  height: 0; 
+  border-top: 72px solid #F8475F;
+  border-left: 72px solid transparent;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.discount span {
+  position: absolute;
+  top: -58px;
+  right: 4px;
+}
+
+.installments {
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.installments.hidden {
+  visibility: hidden;
+  display: block;
+}
+
+.btnProducts {
+  margin: 8px auto 14px;
+  width: 125px;
+  opacity: 0;
+}
+
+.productCard:hover .btnProducts {
+  opacity: 0.9;
+  width: 135px;
+  transition: 0.5s;
 }
